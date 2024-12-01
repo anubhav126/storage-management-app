@@ -78,7 +78,7 @@ export const Chart = ({ used = 0 }: { used: number }) => {
                           y={(viewBox.cy || 0) + 24}
                           className="fill-white/70"
                         >
-                          Total Space used is
+                          Total Space: 
                         </tspan>
                       </text>
                     );
