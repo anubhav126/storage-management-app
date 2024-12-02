@@ -38,11 +38,11 @@ const MobileNavigation = ({
   return (
     <header className="mobile-header">
       <Image
-        src="/assets/icons/logo-full-brand.svg"
+        src="/assets/icons/logo-full.svg"
         alt="logo"
         width={120}
         height={52}
-        className="h-auto"
+        className="h-auto bg-brand rounded-full mx-2 px-2 pl-3"
       />
 
       <Sheet open={open} onOpenChange={setOpen}>

@@ -13,11 +13,8 @@ const nextConfig: NextConfig = {
     },
   },
   images: {
+    domains: ['avatar.iran.liara.run'],
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cdn.pixabay.com",
-      },
       {
         protocol: "https",
         hostname: "img.freepik.com",
